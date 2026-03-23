@@ -38,5 +38,8 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- Team-level → PM → Product Lead (PdM) → Sponsor
+- **Production incidents:** DevOps Engineer → PM → Sponsor (DevOps leads technical response)
+- **Security incidents:** Security Lead → PM → PdM / Legal / Sponsor (Security Lead leads response; follow security incident runbook)
+
+> See [Role Interactions](octoacme-role-interactions.md) for full cross-role escalation guidance and [RAID Log Template](octoacme-raid-log-template.md) for tracking risks and issues.

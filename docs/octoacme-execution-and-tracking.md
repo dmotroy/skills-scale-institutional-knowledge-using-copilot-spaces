@@ -30,11 +30,16 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Blocker Escalation
 - Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
+- Level 2: PM escalates to Product Lead (PdM) and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
+- **Production incidents:** DevOps Engineer leads response; PM coordinates stakeholder communication
+- **Security incidents:** Security Lead leads response; escalate to PM and PdM immediately
+
+> See [Role Interactions](octoacme-role-interactions.md) for a full escalation path summary.
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] Risk register / RAID log updated weekly (see [RAID Log Template](octoacme-raid-log-template.md))
+- [ ] Definition of Ready and Done in use by the team (see [DoR/DoD](octoacme-definition-of-ready-and-done.md))

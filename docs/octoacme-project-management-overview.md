@@ -15,10 +15,17 @@ Applies to all cross-functional projects that deliver product features, services
 
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Product Manager (PdM / Product Lead): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
+- DevOps Engineer: owns CI/CD pipelines, deployments, and infrastructure reliability.
+- UX Designer: creates user flows, designs, and validates usability.
+- Security Lead: defines security requirements, reviews releases, leads security incident response.
+- Data Analyst: measures outcomes, builds dashboards, enables data-driven decisions.
+- Support / Customer Success: gathers user feedback, coordinates incident comms, onboards users.
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
+
+> See [octoacme-roles-and-personas.md](octoacme-roles-and-personas.md) for full role definitions and a RACI summary.
 
 ## Key Artifacts
 - Project Charter / One-pager

@@ -10,10 +10,11 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
-- Passing CI and security scans
+- Passing CI and security scans (Security Lead sign-off required for security-sensitive changes)
 - Release notes drafted
 - Rollback / mitigation plan documented
 - Smoke tests prepared
+- DevOps Engineer has confirmed deployment readiness
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
@@ -25,9 +26,10 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
-  - Trigger incident response and notify on-call
+  - DevOps Engineer triggers incident response and notifies on-call
   - Rollback to last known-good release if necessary
   - Triage root cause and capture action items
+  - For security incidents, notify Security Lead immediately
 
 ## Release Notes Template
 - Release name / number:
