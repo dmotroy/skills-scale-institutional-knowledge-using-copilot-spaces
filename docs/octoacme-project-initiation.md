@@ -27,7 +27,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Primary stakeholders:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- Proposed team / roles: _(list all roles needed: PM, PdM, Developer(s), DevOps Engineer, UX Designer, Security Lead, Data Analyst, Support/Customer Success — include only roles relevant to this project)_
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
